@@ -1,0 +1,41 @@
+header h1 {
+  letter-spacing: 10px;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.box {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+#green-border{
+
+  border: solid 4px green;
+}
+
+input[type="text"]{
+  border: solid 2px black;
+  border-radius: 10px;
+}
+
+input[type="email"] {
+  border: solid 3px gray;
+  border-radius: 5px;
+}
+
+/* This selector should stay here */
+form {
+  clear: left;
+}
